@@ -8,11 +8,13 @@ Jelenleg az adatok bárhonnan elérhetjük domain névnek köszönhetően. (iotm
 Később lehetséges hogy ez egy helyi weblap lesz.
 
 __kiolvaso_szoftver_0.1__
+
 Képest az adatok kiolvasására
 Képes az adatok feltöltésére AWS S3 felhőbe
 Az adatokat CSV fájlban tárolja
 
 __kiolvaso_szoftver_0.2__
+
 Bekerült a logging
 Schedule hiba kijavítva
 

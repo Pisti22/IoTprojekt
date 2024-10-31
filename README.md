@@ -21,6 +21,8 @@ Bekerült a logging
 
 Schedule hiba kijavítva
 
+Összes jelenleg használt python modul: __boto3, pymodbus, AWS CLI!!!!__
+
 
 
 

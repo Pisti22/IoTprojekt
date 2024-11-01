@@ -23,7 +23,7 @@ Schedule hiba kijavítva
 
 Összes jelenleg használt python modul: __boto3, pymodbus, AWS CLI!!!!__
 
----Weblap 0.1---
+---html_es_weblap_0.1---
 
 Minden fájl AWS S3 bucketbe van feltöltve (iotmero.com) és az oldal elérhető az iotmero.com domainen.
 Mindegyik oldal egy külön HTML, a főoldal (IoT_weblap.html) és a Hisztorikus adatok (page2.html) oldal kódjába van beleírva a JavaScript is.

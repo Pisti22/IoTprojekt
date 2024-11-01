@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html lang="hu">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="meter.png">
+        <title>
+            Extra
+        </title>
+    </head>
+    <header>
+        <div class="topnav">
+            <a class="active" href="IoT_weblap.html">Főoldal</a>
+            <a href="page2.html">Hisztorikus adatok</a>
+            <a href="page3.html">Információ</a>
+            <a href="page4.html">Extra</a>
+          </div>
+    </header>
+    <body>
+        <div class="body">
+            <h1>Extra oldal</h1>
+            <br>
+            Extra oldal
+            <br>
+            Ez most üres
+            <br><br>
+            <table id="csv-table">
+           
+            </table>
+            <script>
+                // Ugyan az a script, mint az IoT_weblap-ban, csak fuggolegesen (oszlopok es sorok felcserelve)
+                function loadCSVFromPath() {
+                    const filePath = 'adatbazis.csv'; // Set the path to your CSV file
+    
+                    // Fetch the CSV file from the server
+                    fetch('adatbazis.csv')
+                        .then(response => response.text())
+                        .then(csvText => {
+                            // Parse the CSV text into rows and columns
+                            const rows = csvText.split('\n').map(row => row.split(','));
+
+                            // Get the table element
+                            const table = document.getElementById('csv-table');
+
+                            // Clear any existing content in the table
+                            table.innerHTML = '';
+
+                            // Display only the header (first row) and the last row
+                            const header = rows[0];
+                            const lastRow = rows[rows.length - 2];
+
+                            // Transpose data to make it vertical
+                            for (let i = 0; i < header.length; i++) {
+                                const tr = document.createElement('tr');
+
+                                // Create header cell for the attribute name
+                                const th = document.createElement('th');
+                                th.textContent = header[i];
+                                tr.appendChild(th);
+
+                                // Create data cell for the attribute value
+                                const td = document.createElement('td');
+                                td.textContent = lastRow[i];
+                                tr.appendChild(td);
+
+                                // Append the row to the table
+                                table.appendChild(tr);
+                            }
+                        })
+                        .catch(error => console.error('Error loading the CSV file:', error));
+                }
+    
+                // Call the function to load CSV when the page loads
+                window.onload = loadCSVFromPath;
+            </script>
+
+        </div>
+    </body>
+</html>

@@ -30,8 +30,11 @@ Mindegyik oldal egy külön HTML, a főoldal (IoT_weblap.html) és a Hisztorikus
 Az adatbazis.csv állományból JavaScript olvassa be az adatokat az adott oldal betöltésekor.
 Hogy az adatok frissülhessenek, az oldal 45 mp-ként automatikusan újratölt.
 
-----------------
+---linux_ubuntu---
 
+A projekt teljesítéséhez a programnak linuxon kell futnia.
+Virtualbox-ban Ubuntu 24.04 van telepítve.
+Ehhez még a további szoftverek telepítésre várnak.
 
 
 

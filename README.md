@@ -36,6 +36,7 @@ A projekt teljesítéséhez a programnak linuxon kell futnia.
 Virtualbox-ban Ubuntu 24.04 van telepítve.
 Ehhez még a további szoftverek telepítésre várnak.
 
----teszt, hogy mukodik-e vs code-dal---
+teszt, hogy a github mukodik-e az IDE-vel
+1234
 
 

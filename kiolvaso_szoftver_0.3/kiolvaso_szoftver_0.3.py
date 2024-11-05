@@ -49,11 +49,11 @@ def olvas():
     olvasott = [] #üres lista
     n=0
     for beolvasott in Regiszterek:
-        x = client.read_holding_registers(beolvasott, 2)
+        x = client.read_holding_registers(beolvasott, 2) #2 olvasas kell mert 16+16 bit
         
         
         decoder=BinaryPayloadDecoder.fromRegisters(x.registers,byteorder=Endian.BIG, wordorder=Endian.BIG)
-        y=decoder.decode_32bit_float()
+        y=decoder.decode_32bit_float() #float32 kiolvasas
 
 
         olvasott.append(y)

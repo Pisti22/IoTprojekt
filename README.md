@@ -21,6 +21,10 @@ Bekerült a logging
 
 Schedule hiba kijavítva
 
+__kiolvaso_szoftver_0.3__
+Float 32 kiolvasás valósul meg a registerekből
+client.connect() hiánya javítva és hibaüzenet kijelzés hozzá adava
+
 Összes jelenleg használt python modul: __boto3, pymodbus, AWS CLI!!!!__
 
 __html_es_weblap_0.1__

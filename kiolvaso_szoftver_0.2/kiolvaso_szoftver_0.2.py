@@ -17,11 +17,11 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
 logging.basicConfig(filename='szoftver.log', level=logging.INFO)
 
 
-host = 'xxx' 
-port = 'xxx'
+host = 'DESKTOP-651THDM' 
+port = '502'
 
-client = ModbusTcpClient(host, port) #constructor ModbusTcpClient osztályra, 
-
+client = ModbusTcpClient(host, port=port) #constructor ModbusTcpClient osztályra, 
+client.connect()
 
 
 felho = 'iotmero.com'
@@ -38,9 +38,9 @@ Regiszterek = [3028,3032,3034,   3000,3002,3004,       3076,3060,3068,   3110,  
 def olvas():
 
     olvasott = [] #üres lista
-
+    n=0
     for beolvasott in Regiszterek:
-        x=client.read_holding_registers(beolvasott, 1) #valtozóba beolvassa az adott registert, illetve hányszor olvassa ki, visszatérési értéke a registers lista
+        x=client.read_holding_registers(beolvasott, 2) #valtozóba beolvassa az adott registert, illetve hányszor olvassa ki, visszatérési értéke a registers lista
 
         olvasott.append(x.registers[0])
         logger.info(str(Regiszterek[n])+'A register olvasasa sikeres, Erteke:'+str(x.registers[0]))

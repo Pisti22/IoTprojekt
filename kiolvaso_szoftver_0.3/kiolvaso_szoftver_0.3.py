@@ -19,7 +19,7 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
 logging.basicConfig(filename='szoftver.log', level=logging.INFO)
 
 
-host = 'DESKTOP-651THDM' 
+host = '127.0.0.1' #'DESKTOP-651THDM' 
 port = '502'
 
 client = ModbusTcpClient(host, port=port) #constructor ModbusTcpClient osztályra, 
@@ -39,7 +39,7 @@ s3=boto3.client('s3') #aws s3 kliens letrehozasa, ezen kivül meg kell adni cmdb
 
 
 
-Regiszterek = [3028,3032,3034,   3000,3002,3004,       3076,3060,3068,   3110,      3196,               3240,3208,3224         ]
+Regiszterek = [3028,3030,3032,   3000,3002,3004,       3076,3060,3068,   3110,      3196,               3240,3208,3224         ]
                 #L1,L2,L3 fesz   L1,L2,L3 áramerősség                   frekvencia,  IEc,           kumulált látsz,hat,meddő energiamenny
                 #(3070,3072,3074)látszólagos telj,       (3054,3056,3058, )hatásos teljesitmeny    (3062,3064,3066,)meddő teljesitmeny
 
@@ -50,6 +50,7 @@ def olvas():
     n=0
     for beolvasott in Regiszterek:
         x = client.read_holding_registers(beolvasott, 2)
+        
         
         decoder=BinaryPayloadDecoder.fromRegisters(x.registers,byteorder=Endian.BIG, wordorder=Endian.BIG)
         y=decoder.decode_32bit_float()
@@ -78,13 +79,13 @@ def iras(adat):
 
 async def main():
 
-    logger.info('A program elkezdodott')
+    logger.info('Az olvasas megkezdodott!')
 
     adat = olvas()
 
     iras(adat)
 
-    logger.info('1 perc varakozas!')
+    logger.info('Az olvasas es feltoltes befejezodott, 1 perc varakozas!')
     await asyncio.sleep(60)
 
 

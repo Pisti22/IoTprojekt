@@ -47,4 +47,5 @@ Ehhez még a további szoftverek telepítésre várnak.
 teszt, hogy a github mukodik-e az IDE-vel
 1234
 
+123123
 

@@ -19,8 +19,8 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
 logging.basicConfig(filename='szoftver.log', level=logging.INFO)
 
 
-host = '192.168.1.1' 
-port = '0000'
+host = 'DESKTOP-651THDM' 
+port = '502'
 
 client = ModbusTcpClient(host, port=port) #constructor ModbusTcpClient osztályra, 
 
@@ -49,7 +49,7 @@ def olvas():
     olvasott = [] #üres lista
     n=0
     for beolvasott in Regiszterek:
-        x = client.read_holding_registers(beolvasott, 1)
+        x = client.read_holding_registers(beolvasott, 2)
         
         decoder=BinaryPayloadDecoder.fromRegisters(x.registers,byteorder=Endian.BIG, wordorder=Endian.BIG)
         y=decoder.decode_32bit_float()
@@ -59,6 +59,7 @@ def olvas():
         logger.info(str(Regiszterek[n])+'A register olvasasa sikeres, Erteke:'+str(y))
         n=n+1
         continue
+    return olvasott
 
 
 

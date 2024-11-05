@@ -11,7 +11,7 @@ from pymodbus.payload import BinaryPayloadDecoder
 from pymodbus.constants import Endian
 from datetime import datetime #időbélyeg 
 
-#test
+
 
 
 logger=logging.getLogger(__name__)

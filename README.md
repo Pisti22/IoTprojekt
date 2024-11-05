@@ -27,6 +27,10 @@ Float 32 kiolvasás valósul meg a registerekből
 
 client.connect() hiánya javítva és hibaüzenet kijelzés hozzá adva
 
+Már nem szükséges szimulációs program, ModBus Slave szimulátorral lehetséges a szimuláció
+
+
+
 
 
 Összes jelenleg használt python modul: __boto3, pymodbus, AWS CLI!!!!__

@@ -48,7 +48,7 @@ def olvas():
     olvasott = [] #üres lista
     n=0
     for beolvasott in Regiszterek:
-        
+
         if beolvasott == 3240 or beolvasott == 3208 or beolvasott == 3224:
 
             x = client.read_holding_registers(beolvasott, 4) #4 olvasas kell mert int 64
@@ -59,7 +59,7 @@ def olvas():
 
         else:
 
-            x = client.read_holding_registers(beolvasott, 2) #2 olvasas kell mert 16+16 bit(float32)
+            x = client.read_holding_registers(beolvasott, 2) #2 olvasas kell mert float32
         
             decoder=BinaryPayloadDecoder.fromRegisters(x.registers,byteorder=Endian.BIG, wordorder=Endian.BIG)
             y=decoder.decode_32bit_float() #float32 kiolvasas

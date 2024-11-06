@@ -13,7 +13,6 @@ from datetime import datetime #időbélyeg
 
 
 
-
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
 logging.basicConfig(filename='szoftver.log', level=logging.INFO)
@@ -49,17 +48,28 @@ def olvas():
     olvasott = [] #üres lista
     n=0
     for beolvasott in Regiszterek:
-        x = client.read_holding_registers(beolvasott, 2) #2 olvasas kell mert 16+16 bit(float32)
         
+        if beolvasott == 3240 or beolvasott == 3208 or beolvasott == 3224:
+
+            x = client.read_holding_registers(beolvasott, 4) #4 olvasas kell mert int 64
+
+            decoder=BinaryPayloadDecoder.fromRegisters(x.registers,byteorder=Endian.BIG, wordorder=Endian.BIG)
+            y=decoder.decode_64bit_int() #int64 kiolvasas
+
+
+        else:
+
+            x = client.read_holding_registers(beolvasott, 2) #2 olvasas kell mert 16+16 bit(float32)
         
-        decoder=BinaryPayloadDecoder.fromRegisters(x.registers,byteorder=Endian.BIG, wordorder=Endian.BIG)
-        y=decoder.decode_32bit_float() #float32 kiolvasas
+            decoder=BinaryPayloadDecoder.fromRegisters(x.registers,byteorder=Endian.BIG, wordorder=Endian.BIG)
+            y=decoder.decode_32bit_float() #float32 kiolvasas
 
 
         olvasott.append(y)
         logger.info(str(Regiszterek[n])+'A register olvasasa sikeres, Erteke:'+str(y))
         n=n+1
         continue
+
     return olvasott
 
 

@@ -105,7 +105,8 @@ try:
         asyncio.run(main())
 
 except KeyboardInterrupt:
-    logger.info('LEALLITVA')
+    client.close()
+    logger.info('Kapcsolat bontva és adatkiolvasas LEALLITVA')
 
 
 

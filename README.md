@@ -23,7 +23,7 @@ Schedule hiba kijavítva
 
 __kiolvaso_szoftver_0.3__
 
-Float 32 kiolvasás valósul meg a registerekből
+Típus helyes adatkiolvasás (int64,float32)
 
 client.connect() hiánya javítva és hibaüzenet kijelzés hozzá adva
 

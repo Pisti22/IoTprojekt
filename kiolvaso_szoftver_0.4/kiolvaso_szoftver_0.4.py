@@ -20,7 +20,7 @@ logger.addHandler(logging.StreamHandler(sys.stdout))
 logging.basicConfig(filename='szoftver.log', level=logging.INFO)
 
 
-host = '127.0.0.1' #'DESKTOP-651THDM' 
+host = '127.0.0.1' 
 port = '502'
 
 client = ModbusTcpClient(host, port=port) #constructor ModbusTcpClient osztályra, 
@@ -78,6 +78,7 @@ def iras(adat):
     password="iot123", 
     database="adatbazis"   
     )
+
     mycursor = mydb.cursor()
 
     for n in range(14):
@@ -90,7 +91,13 @@ def iras(adat):
         mycursor.execute(sql,val)
         mydb.commit()
 
-        logger.info(str(adat[n])+'FELTOLTVE')
+        logger.info(str(adat[n])+ ' Feltoltve a hisztorikus adatbazisba!')
+
+    for n in range(14):
+
+        datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        sql= "UPDATE pillanatnyi SET register_id = "
 
     
 
@@ -100,11 +107,17 @@ async def main():
 
     logger.info('Az olvasas megkezdodott!')
 
+    logger.info('-------------------------------------------------')
+
     adat = olvas()
+
+    logger.info('-------------------------------------------------')
 
     iras(adat)
 
+    logger.info('-------------------------------------------------')
     logger.info('Az olvasas es feltoltes befejezodott, 1 perc varakozas!')
+
     await asyncio.sleep(60)
 
 

@@ -75,6 +75,36 @@ VALUES(3224,'kVARh','Q');
 INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
 VALUES(3240,'kVAh','S');
 
+INSERT INTO pillanatnyi(register_id)
+VALUES (3028);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3030);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3032);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3000);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3002);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3004);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3060);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3068);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3076);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3110);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3196);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3208);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3224);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3240);
+
+
 
 
 

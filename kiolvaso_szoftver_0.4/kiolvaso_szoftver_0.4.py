@@ -83,6 +83,20 @@ def iras(adat):
 
     for n in range(14):
 
+        datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        sql= "UPDATE pillanatnyi SET meres = %s,datum = %s WHERE register_id = %s"
+        val=(adat[n],datum,Regiszterek[n])
+
+        mycursor.execute(sql,val)
+        mydb.commit()
+
+        logger.info(str(adat[n])+ ' Feltoltve a pillanatnyi adatbazisba!')
+
+    logger.info('-------------------------------------------------')
+    
+    for n in range(14):
+
         datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S') #időbélyeg    
 
         sql = "INSERT INTO hisztorikus (datum,register_id,meres,eszkoz_id) VALUES (%s,%s,%s,%s)"
@@ -93,11 +107,8 @@ def iras(adat):
 
         logger.info(str(adat[n])+ ' Feltoltve a hisztorikus adatbazisba!')
 
-    for n in range(14):
+    
 
-        datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-
-        sql= "UPDATE pillanatnyi SET register_id = "
 
     
 

@@ -29,8 +29,9 @@ client.connect() hiánya javítva és hibaüzenet kijelzés hozzá adva
 
 Már nem szükséges szimulációs program, ModBus Slave szimulátorral lehetséges a szimuláció
 
+__kiolvaso_szoftver_0.4__
 
-
+Adatbázisba való feltöltés megvalósítva
 
 
 Összes jelenleg használt python modul: __boto3, pymodbus, AWS CLI!!!!__

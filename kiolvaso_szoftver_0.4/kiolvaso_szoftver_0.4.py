@@ -6,10 +6,12 @@ import time #időzétés scheduleval együtt
 import logging
 import asyncio
 import sys
+import mysql.connector
 from pymodbus.client import ModbusTcpClient #modbus csatlakozás
 from pymodbus.payload import BinaryPayloadDecoder
 from pymodbus.constants import Endian
 from datetime import datetime #időbélyeg 
+
 
 
 
@@ -29,12 +31,6 @@ if not  client.connect():
     sys.exit(1)
 else:
     logger.info("Sikerült csatlakozni!")
-
-
-
-felho = 'iotmero.com'
-adatbazis = 'adatbazis.csv' 
-s3=boto3.client('s3') #aws s3 kliens letrehozasa, ezen kivül meg kell adni cmdbe- aws configure acces keyt és jelszó illetve régió
 
 
 
@@ -75,17 +71,30 @@ def olvas():
 
 
 def iras(adat):
+
+    mydb=mysql.connector.connect(
+    host="localhost",     
+    user="root", 
+    password="iot123", 
+    database="adatbazis"   
+    )
+    mycursor = mydb.cursor()
+
+    for n in range(14):
+
+        datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S') #időbélyeg    
+
+        sql = "INSERT INTO hisztorikus (datum,register_id,meres,eszkoz_id) VALUES (%s,%s,%s,%s)"
+        val=(datum,Regiszterek[n],adat[n],1)
+
+        mycursor.execute(sql,val)
+        mydb.commit()
+
+        logger.info(str(adat[n])+'FELTOLTVE')
+
     
-    datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S') #időbélyeg    
-    sor=[datum] + adat  #adatok
 
-    with open(adatbazis, 'a', newline='') as file:
         
-        csv.writer(file).writerow(sor)
-
-    s3.upload_file(adatbazis,felho,adatbazis)
-
-    logger.info(str(sor)+'FELToLTVE')
 
 async def main():
 

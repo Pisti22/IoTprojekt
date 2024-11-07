@@ -71,7 +71,7 @@ VALUES(3196,0,'IEC');
 INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
 VALUES(3208,'Wh','P');
 INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
-VALUES(3241,'kVARh','Q');
+VALUES(3224,'kVARh','Q');
 INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
 VALUES(3240,'kVAh','S');
 

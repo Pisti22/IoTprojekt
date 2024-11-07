@@ -13,8 +13,6 @@ from pymodbus.constants import Endian
 from datetime import datetime #időbélyeg 
 
 
-
-
 logger=logging.getLogger(__name__)
 logger.addHandler(logging.StreamHandler(sys.stdout))
 logging.basicConfig(filename='szoftver.log', level=logging.INFO)
@@ -91,13 +89,19 @@ def iras(adat):
         mycursor.execute(sql,val)
         mydb.commit()
 
-        logger.info(str(adat[n])+ ' Feltoltve a pillanatnyi adatbazisba!')
+        sql = "INSERT INTO hisztorikus (datum,register_id,meres,eszkoz_id) VALUES (%s,%s,%s,%s)"
+        val=(datum,Regiszterek[n],adat[n],1)
+
+        mycursor.execute(sql,val)
+        mydb.commit()
+
+        logger.info(str(adat[n])+ ' Feltoltve az adatbazisba!')
 
     logger.info('-------------------------------------------------')
-    
-    for n in range(14):
 
-        datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S') #időbélyeg    
+    """for n in range(14):
+
+        datum = datetime.now().strftime('%Y-%m-%d %H:%M:%S')   
 
         sql = "INSERT INTO hisztorikus (datum,register_id,meres,eszkoz_id) VALUES (%s,%s,%s,%s)"
         val=(datum,Regiszterek[n],adat[n],1)
@@ -105,15 +109,9 @@ def iras(adat):
         mycursor.execute(sql,val)
         mydb.commit()
 
-        logger.info(str(adat[n])+ ' Feltoltve a hisztorikus adatbazisba!')
+        logger.info(str(adat[n])+ ' Feltoltve a hisztorikus adatbazisba!')"""
 
     
-
-
-    
-
-        
-
 async def main():
 
     logger.info('Az olvasas megkezdodott!')

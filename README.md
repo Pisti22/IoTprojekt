@@ -43,14 +43,19 @@ Mindegyik oldal egy külön HTML, a főoldal (IoT_weblap.html) és a Hisztorikus
 Az adatbazis.csv állományból JavaScript olvassa be az adatokat az adott oldal betöltésekor.
 Hogy az adatok frissülhessenek, az oldal 45 mp-ként automatikusan újratölt.
 
+__html_es_weblap_0.3__
+A főoldal az index.php
+Minden ugyan az, mint 0.1-ben, viszont nem tartalmaz JavaScript-et és CSV-t
+AZ adatok az "adatbazis" nevű adatbázisból vannak kiolvasva php segítségével
+Jelenleg a teljes "pillanatnyi" és a teljes "hisztorikus" táblát kiolvassa
+A táblázatok fejléce ignorálható, későbbi verziókban az adatbázisból lesz kiolvasva a "megnevezes"
+A táblázat sorai és oszlopai még felcserélendők
+
 __linux_ubuntu__
 
 A projekt teljesítéséhez a programnak linuxon kell futnia.
 Virtualbox-ban Ubuntu 24.04 van telepítve.
-Ehhez még a további szoftverek telepítésre várnak.
+XAMPP segítségével fut a local webserver, a mysql adatbázis es a phpmyadminis
 
-teszt, hogy a github mukodik-e az IDE-vel
-1234
 
-123123
 

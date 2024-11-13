@@ -44,6 +44,7 @@ Az adatbazis.csv állományból JavaScript olvassa be az adatokat az adott oldal
 Hogy az adatok frissülhessenek, az oldal 45 mp-ként automatikusan újratölt.
 
 __html_es_weblap_0.3__
+
 A főoldal az index.php
 Minden ugyan az, mint 0.1-ben, viszont nem tartalmaz JavaScript-et és CSV-t
 AZ adatok az "adatbazis" nevű adatbázisból vannak kiolvasva php segítségével

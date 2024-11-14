@@ -1,7 +1,7 @@
 
 import logging.handlers
 import schedule
-import time #időzétés scheduleval együtt
+import time 
 import logging
 import asyncio
 import sys
@@ -31,7 +31,7 @@ else:
     logger.info("Sikerült csatlakozni!")
 
 
-f = input("Hany fazist szeretnel hasznalni?")
+f = input("Hany fazison szeretnel merni?")
 
 if f == 1:
     reg = [3027,2999,3075,3059,3067,3109,3195,3239,3207,3223] #1phase

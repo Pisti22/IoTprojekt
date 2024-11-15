@@ -64,7 +64,7 @@ def olvas():
 
         
 
-        if y == 'non':
+        if y == 'nan':
             y=0
             olvasott.append(y)
             logger.info(str(Regiszterek[n])+'A register olvasasa sikeres, Erteke:'+str(y))

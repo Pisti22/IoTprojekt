@@ -1,0 +1,530 @@
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.2, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (172.20.10.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (172.20.10.2, 502) failed: timed out
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (172.20.10.2, 502) failed: timed out
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (localhost, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (172.20.10.2, 502) failed: timed out
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (172.20.10.2, 502) failed: timed out
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+ERROR:pymodbus.logging:Connection to (127.0.0.1, 502) failed: [Errno 111] Connection refused
+ERROR:__main__:Nem sikerült csatlakozni!
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:234.90318298339844
+INFO:__main__:3030A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3032A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3000A register olvasasa sikeres, Erteke:1.0102827548980713
+INFO:__main__:3002A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3004A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3076A register olvasasa sikeres, Erteke:0.23731863498687744
+INFO:__main__:3060A register olvasasa sikeres, Erteke:0.23720242083072662
+INFO:__main__:3068A register olvasasa sikeres, Erteke:-0.007425936404615641
+INFO:__main__:3110A register olvasasa sikeres, Erteke:49.98896026611328
+INFO:__main__:3196A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:234.72763061523438
+INFO:__main__:3030A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3032A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3000A register olvasasa sikeres, Erteke:1.0098283290863037
+INFO:__main__:3002A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3004A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3076A register olvasasa sikeres, Erteke:0.2370346039533615
+INFO:__main__:3060A register olvasasa sikeres, Erteke:0.2369215190410614
+INFO:__main__:3068A register olvasasa sikeres, Erteke:-0.007321042008697987
+INFO:__main__:3110A register olvasasa sikeres, Erteke:49.99154281616211
+INFO:__main__:3196A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3240A register olvasasa sikeres, Erteke:9
+INFO:__main__:3208A register olvasasa sikeres, Erteke:9
+INFO:__main__:3224A register olvasasa sikeres, Erteke:203
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.5720672607422
+INFO:__main__:3030A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3032A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3000A register olvasasa sikeres, Erteke:1.0145597457885742
+INFO:__main__:3002A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3004A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3076A register olvasasa sikeres, Erteke:0.24001649022102356
+INFO:__main__:3060A register olvasasa sikeres, Erteke:0.23990093171596527
+INFO:__main__:3068A register olvasasa sikeres, Erteke:-0.007447472307831049
+INFO:__main__:3110A register olvasasa sikeres, Erteke:49.98041915893555
+INFO:__main__:3196A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3240A register olvasasa sikeres, Erteke:9
+INFO:__main__:3208A register olvasasa sikeres, Erteke:9
+INFO:__main__:3224A register olvasasa sikeres, Erteke:203
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.1709747314453
+INFO:__main__:3030A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3032A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3000A register olvasasa sikeres, Erteke:1.0131542682647705
+INFO:__main__:3002A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3004A register olvasasa sikeres, Erteke:nan
+INFO:__main__:3076A register olvasasa sikeres, Erteke:0.23927763104438782
+INFO:__main__:3060A register olvasasa sikeres, Erteke:0.23916494846343994
+INFO:__main__:3068A register olvasasa sikeres, Erteke:-0.007342619355767965
+INFO:__main__:3110A register olvasasa sikeres, Erteke:49.987178802490234
+INFO:__main__:3196A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3240A register olvasasa sikeres, Erteke:9
+INFO:__main__:3208A register olvasasa sikeres, Erteke:9
+INFO:__main__:3224A register olvasasa sikeres, Erteke:203
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.1709747314453 Feltoltve az adatbazisba!
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.5623321533203
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0145398378372192
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.24000190198421478
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.2398872822523117
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007416462060064077
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.0069580078125
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:203
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.5623321533203 Feltoltve az adatbazisba!
+INFO:__main__:1.0145398378372192 Feltoltve az adatbazisba!
+INFO:__main__:0.24000190198421478 Feltoltve az adatbazisba!
+INFO:__main__:0.2398872822523117 Feltoltve az adatbazisba!
+INFO:__main__:-0.007416462060064077 Feltoltve az adatbazisba!
+INFO:__main__:50.0069580078125 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:203 Feltoltve az adatbazisba!
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.86611938476562
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0149847269058228
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.24041549861431122
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.24029755592346191
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007529369555413723
+INFO:__main__:3004A register olvasasa sikeres, Erteke:49.99128723144531
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:203
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.86611938476562 Feltoltve az adatbazisba!
+INFO:__main__:1.0149847269058228 Feltoltve az adatbazisba!
+INFO:__main__:0.24041549861431122 Feltoltve az adatbazisba!
+INFO:__main__:0.24029755592346191 Feltoltve az adatbazisba!
+INFO:__main__:-0.007529369555413723 Feltoltve az adatbazisba!
+INFO:__main__:49.99128723144531 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:203 Feltoltve az adatbazisba!
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:234.3559112548828
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.008853793144226
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23643085360527039
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23631711304187775
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007332770619541407
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.01173782348633
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:203
+INFO:__main__:-------------------------------------------------
+INFO:__main__:234.3559112548828 Feltoltve az adatbazisba!
+INFO:__main__:1.008853793144226 Feltoltve az adatbazisba!
+INFO:__main__:0.23643085360527039 Feltoltve az adatbazisba!
+INFO:__main__:0.23631711304187775 Feltoltve az adatbazisba!
+INFO:__main__:-0.007332770619541407 Feltoltve az adatbazisba!
+INFO:__main__:50.01173782348633 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:203 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:234.68711853027344
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0091537237167358
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23683537542819977
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23672115802764893
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007354314438998699
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.01784133911133
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:203
+INFO:__main__:-------------------------------------------------
+INFO:__main__:234.68711853027344 Feltoltve az adatbazisba!
+INFO:__main__:1.0091537237167358 Feltoltve az adatbazisba!
+INFO:__main__:0.23683537542819977 Feltoltve az adatbazisba!
+INFO:__main__:0.23672115802764893 Feltoltve az adatbazisba!
+INFO:__main__:-0.007354314438998699 Feltoltve az adatbazisba!
+INFO:__main__:50.01784133911133 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:203 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.53883361816406
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0145721435546875
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23998571932315826
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.2398718297481537
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.0073927221819758415
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.02573776245117
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.53883361816406 Feltoltve az adatbazisba!
+INFO:__main__:1.0145721435546875 Feltoltve az adatbazisba!
+INFO:__main__:0.23998571932315826 Feltoltve az adatbazisba!
+INFO:__main__:0.2398718297481537 Feltoltve az adatbazisba!
+INFO:__main__:-0.0073927221819758415 Feltoltve az adatbazisba!
+INFO:__main__:50.02573776245117 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.09571838378906
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0133733749389648
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23925311863422394
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.2391403168439865
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.0073455446399748325
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.02153015136719
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.09571838378906 Feltoltve az adatbazisba!
+INFO:__main__:1.0133733749389648 Feltoltve az adatbazisba!
+INFO:__main__:0.23925311863422394 Feltoltve az adatbazisba!
+INFO:__main__:0.2391403168439865 Feltoltve az adatbazisba!
+INFO:__main__:-0.0073455446399748325 Feltoltve az adatbazisba!
+INFO:__main__:50.02153015136719 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:235.6419219970703
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0122029781341553
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23851746320724487
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23840278387069702
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007395363878458738
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.03150939941406
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:235.6419219970703 Feltoltve az adatbazisba!
+INFO:__main__:1.0122029781341553 Feltoltve az adatbazisba!
+INFO:__main__:0.23851746320724487 Feltoltve az adatbazisba!
+INFO:__main__:0.23840278387069702 Feltoltve az adatbazisba!
+INFO:__main__:-0.007395363878458738 Feltoltve az adatbazisba!
+INFO:__main__:50.03150939941406 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.08644104003906
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0135425329208374
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23928365111351013
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23916718363761902
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007464499678462744
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.01947784423828
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.08644104003906 Feltoltve az adatbazisba!
+INFO:__main__:1.0135425329208374 Feltoltve az adatbazisba!
+INFO:__main__:0.23928365111351013 Feltoltve az adatbazisba!
+INFO:__main__:0.23916718363761902 Feltoltve az adatbazisba!
+INFO:__main__:-0.007464499678462744 Feltoltve az adatbazisba!
+INFO:__main__:50.01947784423828 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Kapcsolat bontva és adatkiolvasas LEALLITVA
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.63015747070312
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0145050287246704
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.24006249010562897
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23994597792625427
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007478093262761831
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.029483795166016
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.63015747070312 Feltoltve az adatbazisba!
+INFO:__main__:1.0145050287246704 Feltoltve az adatbazisba!
+INFO:__main__:0.24006249010562897 Feltoltve az adatbazisba!
+INFO:__main__:0.23994597792625427 Feltoltve az adatbazisba!
+INFO:__main__:-0.007478093262761831 Feltoltve az adatbazisba!
+INFO:__main__:50.029483795166016 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.55067443847656
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.014084815979004
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.2398824393749237
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23977169394493103
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007288421969860792
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.019107818603516
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.55067443847656 Feltoltve az adatbazisba!
+INFO:__main__:1.014084815979004 Feltoltve az adatbazisba!
+INFO:__main__:0.2398824393749237 Feltoltve az adatbazisba!
+INFO:__main__:0.23977169394493103 Feltoltve az adatbazisba!
+INFO:__main__:-0.007288421969860792 Feltoltve az adatbazisba!
+INFO:__main__:50.019107818603516 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.06394958496094
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0138808488845825
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23934070765972137
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23922978341579437
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.00728627759963274
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.01838684082031
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.06394958496094 Feltoltve az adatbazisba!
+INFO:__main__:1.0138808488845825 Feltoltve az adatbazisba!
+INFO:__main__:0.23934070765972137 Feltoltve az adatbazisba!
+INFO:__main__:0.23922978341579437 Feltoltve az adatbazisba!
+INFO:__main__:-0.00728627759963274 Feltoltve az adatbazisba!
+INFO:__main__:50.01838684082031 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.88380432128906
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0157620906829834
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.24061758816242218
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.24050231277942657
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007446685340255499
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.005577087402344
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:204
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.88380432128906 Feltoltve az adatbazisba!
+INFO:__main__:1.0157620906829834 Feltoltve az adatbazisba!
+INFO:__main__:0.24061758816242218 Feltoltve az adatbazisba!
+INFO:__main__:0.24050231277942657 Feltoltve az adatbazisba!
+INFO:__main__:-0.007446685340255499 Feltoltve az adatbazisba!
+INFO:__main__:50.005577087402344 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:204 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.1255340576172
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0134505033493042
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23930154740810394
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23918777704238892
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007378177251666784
+INFO:__main__:3004A register olvasasa sikeres, Erteke:49.968868255615234
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:205
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.1255340576172 Feltoltve az adatbazisba!
+INFO:__main__:1.0134505033493042 Feltoltve az adatbazisba!
+INFO:__main__:0.23930154740810394 Feltoltve az adatbazisba!
+INFO:__main__:0.23918777704238892 Feltoltve az adatbazisba!
+INFO:__main__:-0.007378177251666784 Feltoltve az adatbazisba!
+INFO:__main__:49.968868255615234 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:205 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.61854553222656
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0144354104995728
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.24003422260284424
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.23992305994033813
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.0073042153380811214
+INFO:__main__:3004A register olvasasa sikeres, Erteke:49.980369567871094
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:205
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.61854553222656 Feltoltve az adatbazisba!
+INFO:__main__:1.0144354104995728 Feltoltve az adatbazisba!
+INFO:__main__:0.24003422260284424 Feltoltve az adatbazisba!
+INFO:__main__:0.23992305994033813 Feltoltve az adatbazisba!
+INFO:__main__:-0.0073042153380811214 Feltoltve az adatbazisba!
+INFO:__main__:49.980369567871094 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:205 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:236.46961975097656
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0146939754486084
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.23994430899620056
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.2398262768983841
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007524958811700344
+INFO:__main__:3004A register olvasasa sikeres, Erteke:49.978084564208984
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:205
+INFO:__main__:-------------------------------------------------
+INFO:__main__:236.46961975097656 Feltoltve az adatbazisba!
+INFO:__main__:1.0146939754486084 Feltoltve az adatbazisba!
+INFO:__main__:0.23994430899620056 Feltoltve az adatbazisba!
+INFO:__main__:0.2398262768983841 Feltoltve az adatbazisba!
+INFO:__main__:-0.007524958811700344 Feltoltve az adatbazisba!
+INFO:__main__:49.978084564208984 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:205 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Kapcsolat bontva és adatkiolvasas LEALLITVA
+INFO:__main__:Sikerült csatlakozni!
+INFO:__main__:Az olvasas megkezdodott!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:3028A register olvasasa sikeres, Erteke:237.12266540527344
+INFO:__main__:3030A register olvasasa sikeres, Erteke:1.0159682035446167
+INFO:__main__:3032A register olvasasa sikeres, Erteke:0.24090908467769623
+INFO:__main__:3000A register olvasasa sikeres, Erteke:0.24079731106758118
+INFO:__main__:3002A register olvasasa sikeres, Erteke:-0.007410402409732342
+INFO:__main__:3004A register olvasasa sikeres, Erteke:50.02802276611328
+INFO:__main__:3076A register olvasasa sikeres, Erteke:1.3636631300555703e-36
+INFO:__main__:3060A register olvasasa sikeres, Erteke:9
+INFO:__main__:3068A register olvasasa sikeres, Erteke:9
+INFO:__main__:3110A register olvasasa sikeres, Erteke:206
+INFO:__main__:-------------------------------------------------
+INFO:__main__:237.12266540527344 Feltoltve az adatbazisba!
+INFO:__main__:1.0159682035446167 Feltoltve az adatbazisba!
+INFO:__main__:0.24090908467769623 Feltoltve az adatbazisba!
+INFO:__main__:0.24079731106758118 Feltoltve az adatbazisba!
+INFO:__main__:-0.007410402409732342 Feltoltve az adatbazisba!
+INFO:__main__:50.02802276611328 Feltoltve az adatbazisba!
+INFO:__main__:1.3636631300555703e-36 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:9 Feltoltve az adatbazisba!
+INFO:__main__:206 Feltoltve az adatbazisba!
+INFO:__main__:-------------------------------------------------
+INFO:__main__:-------------------------------------------------
+INFO:__main__:Az olvasas es feltoltes befejezodott, 1 perc varakozas!
+INFO:__main__:Kapcsolat bontva és adatkiolvasas LEALLITVA
+ERROR:pymodbus.logging:Connection to (192.168.1.32, 502) failed: timed out
+ERROR:__main__:Nem sikerült csatlakozni!

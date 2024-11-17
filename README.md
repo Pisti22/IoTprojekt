@@ -34,7 +34,13 @@ __kiolvaso_szoftver_0.4__
 Adatbázisba való feltöltés megvalósítva
 
 
-Összes jelenleg használt python modul: __boto3, pymodbus, AWS CLI!!!!__
+__kiolvaso_szoftver_0.5__
+
+Élesbe tesztelve, működőképes
+
+unit_id javítva
+
+1 fázisu mérés esetén 'nan' érték kezelve
 
 __html_es_weblap_0.1__
 

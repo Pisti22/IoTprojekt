@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="45">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="meter.png">
+        <title>
+            Hisztorikus adatok
+        </title>
+    </head>
+    <header>
+        <div class="topnav">
+            <a class="active" href="IoT_weblap.html">Főoldal</a>
+            <a href="page2.html">Hisztorikus adatok</a>
+            <a href="page3.html">Információ</a>
+            <a href="page4.html">Extra</a>
+          </div>
+    </header>
+<body>
+    <div class="body">
+        <h1>Hisztorikus adatok</h1>
+        <br>
+        <button onclick="document.location='adatbazis.csv'">Adatok letöltése CSV-ben</button>
+        <br>
+        <br>
+        <table id="csv-table">
+            
+        </table>
+
+        <script>
+            // Ez a script olvassa ki a CSV-bol az adatokat es tablazatba rakja
+            function loadCSVFromPath() {
+                const filePath = 'adatbazis.csv'; // Fajl utvonala
+
+                fetch('adatbazis.csv')  // Ide is erdemes a fajlt beinri
+                    .then(response => response.text())
+                    .then(csvText => {
+                        // CSV parsolasa sorokba es oszlopokba
+                        const rows = csvText.split('\n').map(row => row.split(','));
+                        
+                        // Tablazat kijelolese
+                        const table = document.getElementById('csv-table');
+                        
+                        // Tablazat kiuritese
+                        table.innerHTML = '';
+
+                        // Iteracio a sorok kozott es azok letrehozasa
+                        rows.forEach((row, rowIndex) => {
+                            const tr = document.createElement('tr');
+                            
+                            // Iteralni minden oszlopot soronkent
+                            row.forEach(cell => {
+                                const cellElement = rowIndex === 0 ? document.createElement('th') : document.createElement('td');
+                                cellElement.textContent = cell;
+                                tr.appendChild(cellElement);
+                            });
+
+      
+                            table.appendChild(tr);
+                        });
+                    })
+                    .catch(error => console.error('Error loading the CSV file:', error));
+            }
+
+            // Script futtatasa az oldal betoltesekor
+            window.onload = loadCSVFromPath;
+        </script>
+</div>
+</body>
+</html>

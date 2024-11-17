@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html lang="hu">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="45">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="meter.png">
+        <title>
+            IoT Mérők
+        </title>
+    </head>
+    <header>
+        <div class="topnav">
+            <a class="active" href="IoT_weblap.html">Főoldal</a>
+            <a href="page2.html">Hisztorikus adatok</a>
+            <a href="page3.html">Információ</a>
+            <a href="page4.html">Extra</a>
+          </div>
+    </header>
+    <body>
+        <div class="body">
+            <h1>IoT Mérők</h1>
+            Schneider PM5340 fogyasztásmérő monitorozó oldal
+            <br>
+
+            <h2>Pillanatnyi adatok</h2>
+            <br>
+
+
+            <table id="csv-table">
+                
+            </table>
+    
+            <script>
+                // Ez a script olvassa ki a CSV-bol az adatokat es tablazatba rakja
+                function loadCSVFromPath() {
+                    const filePath = 'adatbazis.csv'; // Fajl utvonala
+    
+                    fetch('adatbazis.csv') // Ide is erdemes a fajlt beinri
+                        .then(response => response.text())
+                        .then(csvText => {
+                            // CSV parsolasa sorokba es oszlopokba
+                            const rows = csvText.split('\n').map(row => row.split(','));
+    
+                            // Tablazat kijelolese
+                            const table = document.getElementById('csv-table');
+    
+                            // Tablazat kiuritese
+                            table.innerHTML = '';
+    
+                            // Csak az elso es utolso sor megjelenitese (utolso elotti, utolso alt. ures)
+                            const rowsToDisplay = [rows[0], rows[rows.length - 2]];
+    
+                            // Iteracio a sorok kozt
+                            rowsToDisplay.forEach((row, rowIndex) => {
+                                const tr = document.createElement('tr');
+    
+                                // Iteracio az oszlopok kozt
+                                row.forEach(cell => {
+                                    const cellElement = rowIndex === 0 ? document.createElement('th') : document.createElement('td');
+                                    cellElement.textContent = cell;
+                                    tr.appendChild(cellElement);
+                                });
+    
+                                
+                                table.appendChild(tr);
+                            });
+                        })
+                        .catch(error => console.error('Error loading the CSV file:', error));
+                }
+    
+                // Script futtatasa az oldal betoltesekor
+                window.onload = loadCSVFromPath;
+            </script>
+
+
+            <br><br>
+
+
+
+        </div>
+    </body>
+
+</html>

@@ -38,7 +38,7 @@ Regiszterek = [3028,3030,3032,3000,3002,3004,3076,3060,3068,3110,3196,3240,3208,
                 #u1,u2,u3 fesz   i1,i2,i3 áramerősség                   frekvencia,  IEc,           kumulált látsz,hat,meddő energiamenny
                 #(3070,3072,3074)látszólagos telj,       (3054,3056,3058, )hatásos teljesitmeny    (3062,3064,3066,)meddő teljesitmeny
 
-
+#i1,i2,i3,u1,u2,u3,hat,medd,látsz,frek,iec,kumhat,med,látsz
 
 def olvas():
 
@@ -106,6 +106,7 @@ def iras(adat):
         mycursor.execute(sql,val)
         mydb.commit()
 
+
         sql = "INSERT INTO hisztorikus (datum,register_id,meres,eszkoz_id) VALUES (%s,%s,%s,%s)"
         val=(datum,Regiszterek[n],adat[n],1)
 
@@ -113,6 +114,12 @@ def iras(adat):
         mydb.commit()
 
         logger.info(str(adat[n])+ ' Feltoltve az adatbazisba!')
+
+    sql="SELECT * FROM pillanatnyi ORDER BY register_id ASC"
+
+    mycursor.execute(sql)
+    mydb.commit()
+
 
     logger.info('-------------------------------------------------')
 

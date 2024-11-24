@@ -19,7 +19,7 @@ CREATE TABLE  eszkozok (
 CREATE TABLE  hisztorikus (
     datum DATETIME,                       
     register_id INT(32),               
-    meres FLOAT(32,5),                 
+    meres FLOAT(32,10),                 
     eszkoz_id INT(32),                  
     FOREIGN KEY (register_id) REFERENCES tulajdonsagok(register_id),  
     FOREIGN KEY (eszkoz_id) REFERENCES eszkozok(eszkoz_id)   
@@ -28,7 +28,7 @@ CREATE TABLE  hisztorikus (
 CREATE TABLE  pillanatnyi (
     datum DATETIME,                       
     register_id INT(32),               
-    meres FLOAT(32,8),                 
+    meres FLOAT(32,10),                 
     eszkoz_id INT(32),                  
     FOREIGN KEY (register_id) REFERENCES tulajdonsagok(register_id),  
     FOREIGN KEY (eszkoz_id) REFERENCES eszkozok(eszkoz_id)   
@@ -69,11 +69,11 @@ INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
 VALUES(3196,0,'IEC');
 
 INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
-VALUES(3208,'Wh','P');
+VALUES(2700,'Wh','P');
 INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
-VALUES(3224,'kVARh','Q');
+VALUES(2708,'kVARh','Q');
 INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
-VALUES(3240,'kVAh','S');
+VALUES(2716,'kVAh','S');
 
 INSERT INTO pillanatnyi(register_id)
 VALUES (3000);
@@ -98,11 +98,11 @@ VALUES (3110);
 INSERT INTO pillanatnyi(register_id)
 VALUES (3196);
 INSERT INTO pillanatnyi(register_id)
-VALUES (3208);
+VALUES (2700);
 INSERT INTO pillanatnyi(register_id)
-VALUES (3224);
+VALUES (2708);
 INSERT INTO pillanatnyi(register_id)
-VALUES (3240);
+VALUES (2716);
 
 
 

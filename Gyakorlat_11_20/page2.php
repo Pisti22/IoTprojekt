@@ -18,14 +18,23 @@
             <a class="active" href="index.php">Főoldal</a>
             <a href="page2.php">Hisztorikus adatok</a>
             <a href="page3.html">Információ</a>
-            <a href="page4.html">Extra</a>
+            <a href="page4.php">Extra</a>
           </div>
     </header>
 <body>
     <div class="body">
         <h1>Hisztorikus adatok</h1>
         <br>
-        <button onclick="document.location='adatbazis.csv'">Adatok letöltése CSV-ben</button>
+
+                <form method="post" action="export.php">
+                    <button class="button" type="submit" name="export" value="CSV Export">CSV Export</button>
+                </form>
+                <br>
+                <form method="post" action="pdfexport.php">
+                    <button class="button2" type="submit" name="export" value="PDF Export">PDF Export</button>
+                </form>
+
+        <br><br>
         <table>
             <thead>
                 
@@ -59,53 +68,45 @@
             $connection = new mysqli($servername, $username, $password, $database);
 
            
-
-            $sql2 = "SELECT datum FROM hisztorikus WHERE register_id=3028";
-
-            
-            $datum = $connection->query($sql2);
+            $sql1 = "SELECT datum FROM hisztorikus WHERE register_id=3028";
+            $datum = $connection->query($sql1);
             
         
             while($row = $datum->fetch_assoc()) {
+                $date = $row["datum"];
+
+                $sql2 = "SELECT meres FROM hisztorikus WHERE datum = ?";
+                $stmt = $connection->prepare($sql2);
+                $stmt->bind_param("s", $date);  
+                $stmt->execute();
+                $adat = $stmt->get_result();
+
+                $adatok = [];
+                $i=0;
                 echo "<tr>";
-                echo "<td>" . $row["datum"] . "</td>";
-                echo "</tr>";
-                
-                
-            }?>
+                echo "<td>" . $date . "</td>";
+                while($row2 = $adat->fetch_assoc()){
+                    if($i <14){
+                    $adatok[]=$row2['meres'];
+
+                    
+                    
+                    echo "<td>". $adatok[$i] ."</td>";
+                    
+                    $i++;}
+                    else{ break; }
+                }
+                echo"</tr>";   
+                    
+            }
             
-            <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $database = "adatbazis";
-
-            $connection = new mysqli($servername, $username, $password, $database);
-
-            $sql = "SELECT * FROM hisztorikus";
-            $adat = $connection->query($sql);
-
-
             
-            while($column = $adat->fetch_assoc()) {
-                
-                
-                echo "<tr>";
-                echo $column["meres"];
-                echo "</tr>";
-                
-
-               
-
-                
-                
-            }?>
             
             
 
             
            
-            
+            ?>
             </tbody>
         </table>
         <br>

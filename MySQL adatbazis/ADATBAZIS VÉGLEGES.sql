@@ -28,7 +28,7 @@ CREATE TABLE  hisztorikus (
 CREATE TABLE  pillanatnyi (
     datum DATETIME,                       
     register_id INT(32),               
-    meres FLOAT(32,5),                 
+    meres FLOAT(32,8),                 
     eszkoz_id INT(32),                  
     FOREIGN KEY (register_id) REFERENCES tulajdonsagok(register_id),  
     FOREIGN KEY (eszkoz_id) REFERENCES eszkozok(eszkoz_id)   
@@ -76,17 +76,17 @@ INSERT INTO tulajdonsagok(register_id,mertekegyseg,megnevezes)
 VALUES(3240,'kVAh','S');
 
 INSERT INTO pillanatnyi(register_id)
-VALUES (3028);
-INSERT INTO pillanatnyi(register_id)
-VALUES (3030);
-INSERT INTO pillanatnyi(register_id)
-VALUES (3032);
-INSERT INTO pillanatnyi(register_id)
 VALUES (3000);
 INSERT INTO pillanatnyi(register_id)
 VALUES (3002);
 INSERT INTO pillanatnyi(register_id)
 VALUES (3004);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3028);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3030);
+INSERT INTO pillanatnyi(register_id)
+VALUES (3032);
 INSERT INTO pillanatnyi(register_id)
 VALUES (3060);
 INSERT INTO pillanatnyi(register_id)

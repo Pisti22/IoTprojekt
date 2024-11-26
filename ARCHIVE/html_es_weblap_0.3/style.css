@@ -1,0 +1,130 @@
+
+
+
+body{
+  width:100%;
+  max-width:100%;
+  height:100%;
+  background-color:rgb(255, 255, 255);
+  font-size: 1.25em;
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+
+}
+header{
+    height:100%;
+    width: 100%;
+    margin:0px 0px 0px 0px;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    border:0px  solid red;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+h1{
+  color:rgb(0, 0, 0);
+  font-size: 2.5em;
+  padding: 0px;
+  text-align: left;
+  background: rgb(255, 255, 255);
+  font-family: 'Helvetica', sans-serif;
+  margin: 0
+  
+}
+
+
+.body {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #3A5A40;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.75em 1.75em;  /*12px, 28px*/
+  text-decoration: none;
+  font-size: 0.875em;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #588157;
+  color: WHITE;
+}
+
+.topnav a.active {
+  background-color: #2a4035;
+  color: white;
+}
+
+
+button {
+    background-color: #B0AA7E;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1.5em;  /*11px, 26px*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-radius: 0px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    font-family: "Helvetica", sans-serif;
+    font-weight: normal;
+    font-size: 0.75em;
+  }
+  
+  th {
+    background: #588157;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 0.625em 1.25em;  /*10px, 20px*/
+  }
+  
+  tr:nth-child(even) {
+    background: #eeeeee;
+  }
+
+
+
+
+
+
+  
+  input[type="file"]::file-selector-button {
+    background-color: #B0AA7E;
+    color: black;
+    border: none;
+    padding: 0.6875em 1.625em;  /*11px, 26px*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  input[type="file"]::file-selector-button:hover {
+    background-color: #dfd7a0;
+    color: black;
+  }
